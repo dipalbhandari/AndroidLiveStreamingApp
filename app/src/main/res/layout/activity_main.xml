@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#fafaf8">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/netlogo"
+        android:layout_gravity="bottom|right" >
+
+
+
+        <Button
+            android:id="@+id/banner"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/nebcaplivebanner" />
+
+
+        <com.example.dipalbhandari.nebraskacapitollive.EmptyRecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="1dp"
+            android:divider="#C0C0C0"
+            android:visibility="visible"/>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/todo_list_empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textColor="#fafaf8"
+                android:background="@drawable/row"
+                android:text="There are no Streaming rightnow.Please check later"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>
+
+

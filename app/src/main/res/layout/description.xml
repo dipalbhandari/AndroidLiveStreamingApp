@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#3b8093"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        >
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="230dp"
+            android:layout_height="90dp"
+            android:paddingLeft="40dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:text="Live stream scheduled to begin on Tuesday, May 21 , 2019 at 9:00AM"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp"
+            android:typeface="sans"
+            app:fontFamily="serif-monospace" />
+
+
+
+        <EditText
+
+            android:id="@+id/remindme"
+            android:layout_marginTop="23dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="8"
+            android:textSize="18dp"
+            android:text="REMIND ME" />
+
+
+
+
+    </LinearLayout>
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="70dp"
+android:background="#3b8093"
+    />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/titleStream"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Supreme Court"
+        android:paddingLeft="40dp"
+        android:paddingTop="25dp"
+        android:textColor="#4e42f4"/>
+
+
+    <TextView
+        android:id="@+id/dateStream"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Mon May 20, 9:00 AM - 1:30 PM"
+        android:paddingLeft="40dp"
+
+        android:textColor="#4e42f4"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.example.dipalbhandari.nebraskacapitollive.Detail">
+
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#CC000000"
+        android:minHeight="42dp"
+        android:padding="9dp">
+
+        <ImageButton
+            android:id="@+id/top_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/video_top_back" />
+
+        <TextView
+            android:id="@+id/top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Dipal"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+
+
+    <fragment
+        android:id="@+id/video_player_fragment"
+        android:name="com.longtailvideo.jwplayer.JWPlayerSupportFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:layout_below="@id/layout_top"
+        tools:layout="@layout/jw_player_fragment_sample_layout" >
+
+        <TextView
+
+            android:textColor="#FFFFFF"
+            android:id="@+id/error"
+            android:textSize="20sp"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            />
+
+
+    </fragment>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/description1" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <color name="card_bg_color">#f6f6f6</color>
+    <color name="card_bg_dark_color">#0e0e0e</color>
+    <color name="title_text_color">#258bd6</color>
+    <color name="content_text_color">#999da4</color>
+
+    <color name="white" >#ffffff</color>
+    <color name="black" >#000000</color>
+    <color name="heading">#BC5959</color>
+    <color name="background">#D0D3D4</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+    <color name="colorPrimaryDark">#00574B</color>
+
+    <color name="colorOrangePrimary">#ff551b</color>
+    <color name="colorOrangerPrimaryDark">#d83801</color>
+    <color name="colorOrangeSecondaryDark">#CBD83801</color>>
+    <color name="colorBlackPrimary">#252729</color>>
+    <color name="colorBlackSecondary">#2D3032</color>>
+    <color name="colorTransparent">#00ffffff</color>>
+    <color name="colorWhite">#FFFFFF</color>>
+
+
+
+
+
+    <color name="colorPrimary">#ab3525</color>
+    <color name="colorTitle">#b3121a</color>
+
+    <color name="colorAccent">#b3121a</color>
+    <color name="colorTextLight">#aaa</color>
+    <color name="colorAppv3Bg">#fff</color>
+    <color name="colorWashedRed">#ab3525</color>
+    <color name="colorBoldRed">#b3121a</color>
+    <color name="colorDarkGray">#6d6e71</color>
+    <color name="colorLightGray">#aaaaaa</color>
+    <color name="colorUltraLightGray">#eee</color>
+    <color name="colorCardTextOverlay">#c0aaaaaa</color>
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
